@@ -43,6 +43,7 @@ public class UpLoadController {
             file.transferTo(file2);//上传处理
         }catch (Exception e){
             System.out.println("创建文件异常");
+            System.out.println("test2");
             e.printStackTrace();
         }
         return "apply-1";
