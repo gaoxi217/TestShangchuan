@@ -46,6 +46,8 @@ public class UpLoadController {
             System.out.println("test2");
             e.printStackTrace();
         }
+
+        System.out.println("nihao");
         return "apply-1";
     }
 
