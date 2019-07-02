@@ -45,6 +45,8 @@ public class UpLoadController {
             System.out.println("创建文件异常");
             e.printStackTrace();
         }
+
+        System.out.println("nihao");
         return "apply-1";
     }
 
